@@ -2,10 +2,11 @@
 
 #pragma once
 
-#include "Tank.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
+
+class ATank;
 
 /**
  * 
@@ -22,7 +23,7 @@ public:
 	virtual void BeginPlay() override;
 
 private:
-	ATank * GetControlledTank() const;
+	ATank* GetControlledTank() const;
 	
 	// Start the tank moving the barrel so that a shot would hit where
 	// the crosshair intersects the world
