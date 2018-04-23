@@ -79,6 +79,7 @@ DerivedDataCache/*
 
 # Content
 Content/StarterContent/*
+Content/KiteDemo/*
 
 # Plugin Intermediate and Binary folders
 Plugins/*/Intermediate/*
